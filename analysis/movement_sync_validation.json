@@ -1,0 +1,57 @@
+{
+  "result": "pass",
+  "samples": {
+    "movement_tutorial": {
+      "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+      "steps": [
+        {
+          "direction": "right",
+          "intermediate_map_images": [
+            "5aef7484"
+          ]
+        },
+        {
+          "direction": "left",
+          "intermediate_map_images": [
+            "d5fc395a",
+            "9ddaadad"
+          ]
+        }
+      ],
+      "latency": [
+        {
+          "label": "world_step_right",
+          "completed_response_frames": 6
+        },
+        {
+          "label": "world_step_left",
+          "completed_response_frames": 8
+        }
+      ]
+    },
+    "movement_sync_tutorial": {
+      "rom_sha256": "7c717a76de333939582de0592ba78f03d28ffef7cda8efa3b43b940eb9e5414e",
+      "steps": [
+        {
+          "direction": "right",
+          "intermediate_map_images": []
+        },
+        {
+          "direction": "left",
+          "intermediate_map_images": []
+        }
+      ],
+      "latency": [
+        {
+          "label": "world_step_right",
+          "completed_response_frames": 6
+        },
+        {
+          "label": "world_step_left",
+          "completed_response_frames": 8
+        }
+      ]
+    }
+  },
+  "limits": "Two deterministic tutorial steps in mGBA; real device feel still requires user play testing."
+}

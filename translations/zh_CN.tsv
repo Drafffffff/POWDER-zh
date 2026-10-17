@@ -1,0 +1,11 @@
+id	english	chinese	status	notes
+main.new_game	New Game	开始游戏	planned	Needs Chinese glyph encoding; ROM string is 8 bytes.
+main.tutorial	Tutorial	教程	planned	Needs Chinese glyph encoding.
+main.view_scores	View Scores	查看分数	planned	Needs Chinese glyph encoding.
+main.load	Load	读取	planned	Needs Chinese glyph encoding.
+main.options	Options	设置	planned	Needs Chinese glyph encoding.
+main.quit	Quit	退出	planned	Needs Chinese glyph encoding.
+option.help	Help	帮助	planned	Needs Chinese glyph encoding.
+option.save_quit	Save&Quit	保存并退出	planned	Longer than source; requires relocated string/pointer update.
+inventory.title	Inventory Items:	物品栏：	planned	Line width must be checked on 30-column screen.
+title.welcome	Welcome to POWDER!	欢迎来到 POWDER！	planned	UTF-8 cannot be inserted until renderer and font are changed.

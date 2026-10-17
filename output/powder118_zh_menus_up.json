@@ -1,0 +1,111 @@
+{
+  "stability": {
+    "rom_sha256": "14adad4368f50fb3cc28e9b244cdbc3255745411ee8b96c0f098bfd09a3ec134",
+    "baseline_ui": {
+      "frames_observed": 3820,
+      "white_intermediate_frames": 92
+    },
+    "fixed_ui": {
+      "frames_observed": 9238,
+      "white_intermediate_frames": 0
+    },
+    "vblank_overruns": 0,
+    "normal_ui_commits_before_reset": 80,
+    "repeat_action_menu_cycles": 5,
+    "repeat_reader_cycles": 5,
+    "world_fixture": null,
+    "visual_layout": "10px action menu / 10px reader / 9px button hints",
+    "ui_only": true,
+    "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+  },
+  "rom": "powder118_zh_menus_up.gba",
+  "rom_bytes": 5681360,
+  "rom_sha256": "14adad4368f50fb3cc28e9b244cdbc3255745411ee8b96c0f098bfd09a3ec134",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "27d8bc785a712cc6d91cf688c66f5f5b01e018bfe29cf00630850abc471a8c93",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "14adad4368f50fb3cc28e9b244cdbc3255745411ee8b96c0f098bfd09a3ec134",
+    "inventory_action_checks": true,
+    "all_action_pages": 4,
+    "repeat_switch_cycles": 5,
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "pixel_wrap_and_9px_hint_bounds": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel 10px, transparent background, dark outline; 9px button hints",
+    "rows_per_page": 9,
+    "line_spacing_px": 12,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return",
+    "panel_top_px": 8,
+    "first_text_top_px": 16
+  },
+  "reader": {
+    "glyph": "Fusion Pixel 10px native dot matrix",
+    "glyph_px": 10,
+    "button_hints_px": 9,
+    "visible_lines": 9,
+    "line_spacing_px": 12
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification",
+  "inventory_menu": {
+    "glyph_px": 9,
+    "previous_glyph_px": 8,
+    "rows_per_page": 11,
+    "line_spacing_px": 10,
+    "navigation": "up/down select; left/right page; A execute; B return"
+  },
+  "input_latency": {
+    "rom_sha256": "14adad4368f50fb3cc28e9b244cdbc3255745411ee8b96c0f098bfd09a3ec134",
+    "responses": [
+      {
+        "label": "open_menu",
+        "completed_response_frames": 4
+      },
+      {
+        "label": "close_menu",
+        "completed_response_frames": 2
+      },
+      {
+        "label": "menu_down",
+        "completed_response_frames": 3
+      },
+      {
+        "label": "menu_up",
+        "completed_response_frames": 3
+      },
+      {
+        "label": "menu_next_page",
+        "completed_response_frames": 4
+      },
+      {
+        "label": "menu_previous_page",
+        "completed_response_frames": 4
+      },
+      {
+        "label": "reader_down",
+        "completed_response_frames": 5
+      },
+      {
+        "label": "reader_up",
+        "completed_response_frames": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "rom": "powder118_zh_compact_menu.gba",
+  "rom_bytes": 5678624,
+  "rom_sha256": "1e6f9e0d4e8ee2abd9ac8ab789510c4e8b4f242aafe41b9528e356d993457009",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "8f23133169dd174b6966f2f500edf077fc585974d1769de8b7182a463aed7c55",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "1e6f9e0d4e8ee2abd9ac8ab789510c4e8b4f242aafe41b9528e356d993457009",
+    "all_five_action_pages": "pass",
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "pixel_wrap_and_9px_hint_bounds": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel 10px, transparent background, dark outline; 9px button hints",
+    "rows_per_page": 7,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return"
+  },
+  "reader": {
+    "glyph": "11px native ink, with blank BDF border removed; no resampling",
+    "button_hints_px": 9,
+    "visible_lines": 8,
+    "line_spacing_px": 13
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification"
+}

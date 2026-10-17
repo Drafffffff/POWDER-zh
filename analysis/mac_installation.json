@@ -1,0 +1,21 @@
+{
+  "installed_app": "/Users/drafff/Applications/POWDER.app",
+  "version": "118",
+  "architecture": "/Users/drafff/Applications/POWDER.app/Contents/MacOS/powder: Mach-O 64-bit executable arm64",
+  "build": "Local arm64 build from upstream source; original English text",
+  "source": "http://www.zincland.com/powder/release/powder118_src.tar.gz",
+  "official_dmg": "http://www.zincland.com/powder/release/powder118.dmg",
+  "reason": "Official Intel package missing SDL rpath; after path repair, window remained blank on this Mac. Native SDL compatibility build renders correctly.",
+  "dependencies": [
+    "Homebrew sdl12-compat 1.2.78",
+    "Existing Homebrew sdl2-compat and SDL3"
+  ],
+  "saves": "/Users/drafff/.powder",
+  "binary_sha256": "afaa54f5c687f9c9869e7ef230535208b334d4e7857addcc28255edba6b2c956",
+  "verified": [
+    "Visible POWDER 118 main menu",
+    "Keyboard down/up selection",
+    "Ad hoc code signature verification"
+  ],
+  "date": "2026-10-12"
+}

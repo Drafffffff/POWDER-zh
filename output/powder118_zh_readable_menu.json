@@ -1,0 +1,35 @@
+{
+  "rom": "powder118_zh_readable_menu.gba",
+  "rom_bytes": 5582184,
+  "rom_sha256": "3144987edfae07da899e921a5d25f267b0213058c85659396ec56c637ae5102c",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "bbd5e4c45cebeba66662d4b32abfb45c2b1cc81ab1c82b9a33c7e5cd393f10cc",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "3144987edfae07da899e921a5d25f267b0213058c85659396ec56c637ae5102c",
+    "all_eight_action_pages": "pass",
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel native 12px in 16x16 cells, black shadow",
+    "rows_per_page": 4,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return"
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification"
+}

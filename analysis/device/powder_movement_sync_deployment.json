@@ -1,0 +1,12 @@
+{
+  "host": "rg34xx",
+  "target": "/mnt/SDCARD/Roms/GBA (MGBA)/汉化测试/powder118_zh_grouped.gba",
+  "menu_label": "powder118_zh",
+  "rom_sha256": "7c717a76de333939582de0592ba78f03d28ffef7cda8efa3b43b940eb9e5414e",
+  "readback_sha256": "7c717a76de333939582de0592ba78f03d28ffef7cda8efa3b43b940eb9e5414e",
+  "replaced_in_place": true,
+  "previous_rom_retained": false,
+  "existing_saves": "not modified",
+  "date": "2026-10-12",
+  "fix": "World camera coordinates committed with actor and map tiles during VBlank."
+}

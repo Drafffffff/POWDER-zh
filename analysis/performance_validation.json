@@ -1,0 +1,72 @@
+{
+  "before_sha256": "ab2dc73fad53c8cef5a01c62440c472e595342888a75ccdd3a1434d8592b12c6",
+  "rom_sha256": "ff196ea658fcc215f26343c81fbc04ff85e49039df789f2f2308a3a201a4f089",
+  "responses": [
+    {
+      "label": "open_menu",
+      "before_frames": 13,
+      "after_frames": 4
+    },
+    {
+      "label": "close_menu",
+      "before_frames": 2,
+      "after_frames": 2
+    },
+    {
+      "label": "menu_down",
+      "before_frames": 13,
+      "after_frames": 3
+    },
+    {
+      "label": "menu_up",
+      "before_frames": 13,
+      "after_frames": 3
+    },
+    {
+      "label": "menu_next_page",
+      "before_frames": 12,
+      "after_frames": 4
+    },
+    {
+      "label": "menu_previous_page",
+      "before_frames": 13,
+      "after_frames": 4
+    },
+    {
+      "label": "reader_down",
+      "before_frames": 35,
+      "after_frames": 5
+    },
+    {
+      "label": "reader_up",
+      "before_frames": 36,
+      "after_frames": 5
+    },
+    {
+      "label": "world_step_right",
+      "before_frames": 9,
+      "after_frames": 9
+    },
+    {
+      "label": "world_step_left",
+      "before_frames": 13,
+      "after_frames": 11
+    }
+  ],
+  "identical_screenshots": [
+    "command_menu",
+    "command_page_two",
+    "command_page_eight",
+    "command_last_page",
+    "command_wrap_first",
+    "command_cancelled",
+    "help_page",
+    "inventory",
+    "options",
+    "font_changed",
+    "tileset_changed",
+    "save_loaded"
+  ],
+  "method": "4-frame input pulse; first video frame matching the settled screen after 80 frames",
+  "limits": "mGBA 0.10.5 deterministic UI/tutorial samples; not an FPS benchmark or real-hardware measurement"
+}

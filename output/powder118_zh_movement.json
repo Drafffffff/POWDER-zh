@@ -1,0 +1,192 @@
+{
+  "stability": {
+    "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+    "baseline_ui": {
+      "frames_observed": 3820,
+      "white_intermediate_frames": 92
+    },
+    "fixed_ui": {
+      "frames_observed": 9664,
+      "white_intermediate_frames": 0
+    },
+    "vblank_overruns": 0,
+    "normal_ui_commits_before_reset": 107,
+    "repeat_action_menu_cycles": 5,
+    "repeat_reader_cycles": 5,
+    "world_fixture": {
+      "build_flag": "FORCESTRESSTEST; not enabled in user ROM",
+      "frames": 60000,
+      "room_regenerations": 19,
+      "presentation_commits": 5810,
+      "rom_sha256": "f9905e6e09ad0fac9e4230e3985966ae193adbcdf610e8cea0e33451dedb4e31"
+    },
+    "visual_layout": "10px Start / native 8px Start hints / 10px reader / 9px inventory and other hints",
+    "ui_only": false,
+    "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+  },
+  "rom": "powder118_zh_movement.gba",
+  "rom_bytes": 5735300,
+  "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "71e2bcb85a7a4df952e74bf6d421366a933528be7ffbaf41357047556a40b920",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+    "inventory_action_checks": true,
+    "all_action_pages": 3,
+    "grouped_actions_reachable": 29,
+    "repeat_switch_cycles": 5,
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "pixel_wrap_and_9px_hint_bounds": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel 10px; native 8px footer",
+    "rows_per_page": 11,
+    "line_spacing_px": 11,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return",
+    "first_text_top_px": 9,
+    "page_number_top_px": 9,
+    "button_hints_px": 8,
+    "category_pages": [
+      {
+        "name": "探索移动",
+        "actions": 11
+      },
+      {
+        "name": "战斗与物品",
+        "actions": 9
+      },
+      {
+        "name": "休息与系统",
+        "actions": 9
+      }
+    ]
+  },
+  "reader": {
+    "glyph": "Fusion Pixel 10px native dot matrix",
+    "glyph_px": 10,
+    "button_hints_px": 9,
+    "visible_lines": 9,
+    "line_spacing_px": 12
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification",
+  "inventory_menu": {
+    "glyph_px": 9,
+    "previous_glyph_px": 8,
+    "rows_per_page": 11,
+    "line_spacing_px": 10,
+    "navigation": "up/down select; left/right page; A execute; B return"
+  },
+  "input_latency": {
+    "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+    "responses": [
+      {
+        "label": "open_menu",
+        "completed_response_frames": 4
+      },
+      {
+        "label": "close_menu",
+        "completed_response_frames": 2
+      },
+      {
+        "label": "menu_down",
+        "completed_response_frames": 3
+      },
+      {
+        "label": "menu_up",
+        "completed_response_frames": 3
+      },
+      {
+        "label": "menu_next_page",
+        "completed_response_frames": 4
+      },
+      {
+        "label": "menu_previous_page",
+        "completed_response_frames": 4
+      },
+      {
+        "label": "reader_down",
+        "completed_response_frames": 5
+      },
+      {
+        "label": "reader_up",
+        "completed_response_frames": 5
+      }
+    ]
+  },
+  "performance": {
+    "before_sha256": "01da96c416d8e524ead963f44ea02736212fd3a7750a32ea17c82cbe4b02649e",
+    "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+    "responses": [
+      {
+        "label": "world_step_right",
+        "before_frames": 9,
+        "after_frames": 6,
+        "before_ms_60hz": 150.0,
+        "after_ms_60hz": 100.0
+      },
+      {
+        "label": "world_step_left",
+        "before_frames": 11,
+        "after_frames": 8,
+        "before_ms_60hz": 183.3,
+        "after_ms_60hz": 133.3
+      }
+    ],
+    "identical_tutorial_screenshots": [
+      "tutorial_signpost_scrolled.png",
+      "tutorial_map.png",
+      "menu_redraw.png",
+      "after_new_game.png",
+      "tutorial_signpost.png",
+      "boot.png",
+      "tutorial_welcome.png"
+    ],
+    "profile_scanlines": {
+      "before": [
+        {
+          "step": "response_world_step_right",
+          "map_scanlines": 1098,
+          "world_scanlines": 1762
+        },
+        {
+          "step": "response_world_step_left",
+          "map_scanlines": 1034,
+          "world_scanlines": 2186
+        }
+      ],
+      "after": [
+        {
+          "step": "response_world_step_right",
+          "map_scanlines": 415,
+          "world_scanlines": 1079
+        },
+        {
+          "step": "response_world_step_left",
+          "map_scanlines": 350,
+          "world_scanlines": 1503
+        }
+      ]
+    },
+    "iwram_to_user_stack_top_bytes": 6756,
+    "game_logic_and_repeat_timing": "unchanged",
+    "method": "mGBA 0.10.5, same 4-frame button pulses; first frame matching settled complete screen after 80 frames. Separate instrumented builds measure renderer scanlines.",
+    "limits": "Two deterministic tutorial movement samples; not a physical RG34XX input-to-display measurement, FPS claim, or full-game speedup guarantee."
+  }
+}

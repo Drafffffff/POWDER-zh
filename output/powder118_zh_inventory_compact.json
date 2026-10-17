@@ -1,0 +1,70 @@
+{
+  "stability": {
+    "rom_sha256": "17fb349477c6436c7730b0bea5c78aefbbae75b63d079f392088917bb5c3796d",
+    "baseline_ui": {
+      "frames_observed": 3820,
+      "white_intermediate_frames": 92
+    },
+    "fixed_ui": {
+      "frames_observed": 8636,
+      "white_intermediate_frames": 0
+    },
+    "vblank_overruns": 0,
+    "normal_ui_commits_before_reset": 75,
+    "repeat_action_menu_cycles": 5,
+    "repeat_reader_cycles": 5,
+    "world_fixture": null,
+    "visual_layout": "10px action menu / 11px reader ink / 9px button hints retained",
+    "ui_only": true,
+    "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+  },
+  "rom": "powder118_zh_inventory_compact.gba",
+  "rom_bytes": 5681304,
+  "rom_sha256": "17fb349477c6436c7730b0bea5c78aefbbae75b63d079f392088917bb5c3796d",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "6065b9caff10a3fe4680d54638870711287ca9ef6725c09f8c37012b91b06430",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "17fb349477c6436c7730b0bea5c78aefbbae75b63d079f392088917bb5c3796d",
+    "inventory_action_checks": true,
+    "all_five_action_pages": "pass",
+    "repeat_switch_cycles": 5,
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "pixel_wrap_and_9px_hint_bounds": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel 10px, transparent background, dark outline; 9px button hints",
+    "rows_per_page": 7,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return"
+  },
+  "reader": {
+    "glyph": "11px native ink, with blank BDF border removed; no resampling",
+    "button_hints_px": 9,
+    "visible_lines": 8,
+    "line_spacing_px": 13
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification",
+  "inventory_menu": {
+    "glyph_px": 9,
+    "previous_glyph_px": 8,
+    "rows_per_page": 11,
+    "line_spacing_px": 10,
+    "navigation": "up/down select; left/right page; A execute; B return"
+  }
+}

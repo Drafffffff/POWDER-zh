@@ -1,0 +1,15 @@
+{
+  "catalogs": {
+    "data_zh.json": 1346,
+    "messages_zh.json": 865,
+    "ui_zh.json": 333,
+    "help_zh.json": 519,
+    "extra_zh.json": 29
+  },
+  "catalog_entries": 3092,
+  "format_tokens": "pass",
+  "pixel_wrap_and_9px_hint_bounds": "pass",
+  "source_data_meaningful_coverage": "pass",
+  "utf8_and_buffer_boundaries": "pass",
+  "original_sha256": "unchanged"
+}

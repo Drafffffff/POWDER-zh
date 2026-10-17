@@ -1,0 +1,32 @@
+{
+  "before_sha256": "01da96c416d8e524ead963f44ea02736212fd3a7750a32ea17c82cbe4b02649e",
+  "responses": [
+    {
+      "label": "world_step_right",
+      "before_frames": 9,
+      "after_frames": 6,
+      "before_ms_60hz": 150.0,
+      "after_ms_60hz": 100.0
+    },
+    {
+      "label": "world_step_left",
+      "before_frames": 11,
+      "after_frames": 8,
+      "before_ms_60hz": 183.3,
+      "after_ms_60hz": 133.3
+    }
+  ],
+  "game_logic_and_repeat_timing": "unchanged",
+  "limits": "Two deterministic tutorial movement samples; not a physical RG34XX input-to-display measurement, FPS claim, or full-game speedup guarantee.",
+  "rom_sha256": "7c717a76de333939582de0592ba78f03d28ffef7cda8efa3b43b940eb9e5414e",
+  "identical_tutorial_screenshots": [
+    "tutorial_signpost_scrolled.png",
+    "tutorial_map.png",
+    "menu_redraw.png",
+    "after_new_game.png",
+    "tutorial_signpost.png",
+    "boot.png",
+    "tutorial_welcome.png"
+  ],
+  "method": "mGBA 0.10.5, identical tutorial button pulses and settled-screen comparisons; camera/map intermediate frames checked separately."
+}

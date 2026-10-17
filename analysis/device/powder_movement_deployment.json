@@ -1,0 +1,13 @@
+{
+  "host": "rg34xx",
+  "target": "/mnt/SDCARD/Roms/GBA (MGBA)/汉化测试/powder118_zh_grouped.gba",
+  "menu_label": "powder118_zh",
+  "rom_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+  "readback_sha256": "cc99c8ecbc9cca5fef41d2d1a69eb7f968e7d5d5492850dc53dea845bf478b4c",
+  "previous_rom_retained": false,
+  "previous_rom_sha256": "01da96c416d8e524ead963f44ea02736212fd3a7750a32ea17c82cbe4b02649e",
+  "existing_saves": "not modified",
+  "date": "2026-10-12",
+  "replaced_in_place": true,
+  "separate_test_entry_removed": true
+}

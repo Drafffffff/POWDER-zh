@@ -1,0 +1,139 @@
+{
+  "stability": {
+    "rom_sha256": "ff196ea658fcc215f26343c81fbc04ff85e49039df789f2f2308a3a201a4f089",
+    "baseline_ui": {
+      "frames_observed": 3820,
+      "white_intermediate_frames": 92
+    },
+    "fixed_ui": {
+      "frames_observed": 31100,
+      "white_intermediate_frames": 0
+    },
+    "vblank_overruns": 0,
+    "normal_ui_commits_before_reset": 277,
+    "repeat_action_menu_cycles": 30,
+    "repeat_reader_cycles": 30,
+    "world_fixture": {
+      "build_flag": "FORCESTRESSTEST; not enabled in user ROM",
+      "frames": 60000,
+      "room_regenerations": 16,
+      "presentation_commits": 4526,
+      "rom_sha256": "2d4e30f73f980fb270bbbfcfcbbd9e110c3aa446ce05f79fbe1b31076d8472d3"
+    },
+    "visual_layout": "10px action menu / 11px reader ink / 9px button hints retained",
+    "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+  },
+  "rom": "powder118_zh_smooth.gba",
+  "rom_bytes": 5681208,
+  "rom_sha256": "ff196ea658fcc215f26343c81fbc04ff85e49039df789f2f2308a3a201a4f089",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "f116cf7e418273e40357b814e005d8e8119b211375206fba6907516efad1478d",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "ff196ea658fcc215f26343c81fbc04ff85e49039df789f2f2308a3a201a4f089",
+    "all_five_action_pages": "pass",
+    "repeat_switch_cycles": 30,
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "pixel_wrap_and_9px_hint_bounds": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel 10px, transparent background, dark outline; 9px button hints",
+    "rows_per_page": 7,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return"
+  },
+  "reader": {
+    "glyph": "11px native ink, with blank BDF border removed; no resampling",
+    "button_hints_px": 9,
+    "visible_lines": 8,
+    "line_spacing_px": 13
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification",
+  "performance": {
+    "before_sha256": "ab2dc73fad53c8cef5a01c62440c472e595342888a75ccdd3a1434d8592b12c6",
+    "rom_sha256": "ff196ea658fcc215f26343c81fbc04ff85e49039df789f2f2308a3a201a4f089",
+    "responses": [
+      {
+        "label": "open_menu",
+        "before_frames": 13,
+        "after_frames": 4
+      },
+      {
+        "label": "close_menu",
+        "before_frames": 2,
+        "after_frames": 2
+      },
+      {
+        "label": "menu_down",
+        "before_frames": 13,
+        "after_frames": 3
+      },
+      {
+        "label": "menu_up",
+        "before_frames": 13,
+        "after_frames": 3
+      },
+      {
+        "label": "menu_next_page",
+        "before_frames": 12,
+        "after_frames": 4
+      },
+      {
+        "label": "menu_previous_page",
+        "before_frames": 13,
+        "after_frames": 4
+      },
+      {
+        "label": "reader_down",
+        "before_frames": 35,
+        "after_frames": 5
+      },
+      {
+        "label": "reader_up",
+        "before_frames": 36,
+        "after_frames": 5
+      },
+      {
+        "label": "world_step_right",
+        "before_frames": 9,
+        "after_frames": 9
+      },
+      {
+        "label": "world_step_left",
+        "before_frames": 13,
+        "after_frames": 11
+      }
+    ],
+    "identical_screenshots": [
+      "command_menu",
+      "command_page_two",
+      "command_page_eight",
+      "command_last_page",
+      "command_wrap_first",
+      "command_cancelled",
+      "help_page",
+      "inventory",
+      "options",
+      "font_changed",
+      "tileset_changed",
+      "save_loaded"
+    ],
+    "method": "4-frame input pulse; first video frame matching the settled screen after 80 frames",
+    "limits": "mGBA 0.10.5 deterministic UI/tutorial samples; not an FPS benchmark or real-hardware measurement"
+  }
+}

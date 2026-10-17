@@ -1,0 +1,24 @@
+{
+  "rom_sha256": "ab2dc73fad53c8cef5a01c62440c472e595342888a75ccdd3a1434d8592b12c6",
+  "baseline_ui": {
+    "frames_observed": 3820,
+    "white_intermediate_frames": 92
+  },
+  "fixed_ui": {
+    "frames_observed": 30460,
+    "white_intermediate_frames": 0
+  },
+  "vblank_overruns": 0,
+  "normal_ui_commits_before_reset": 268,
+  "repeat_action_menu_cycles": 30,
+  "repeat_reader_cycles": 30,
+  "world_fixture": {
+    "build_flag": "FORCESTRESSTEST; not enabled in user ROM",
+    "frames": 60000,
+    "room_regenerations": 15,
+    "presentation_commits": 4161,
+    "rom_sha256": "1dd5fe16bb99af88b370906b6b2edcdc0788d811aa05888ee175f16a8d5a5ef8"
+  },
+  "visual_layout": "10px action menu / 11px reader ink / 9px button hints retained",
+  "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+}

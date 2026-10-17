@@ -1,0 +1,90 @@
+english	chinese	scope
+New Game	新游戏	ui
+Tutorial	教程	ui
+View Scores	看分数	ui
+Load	读取	ui
+Options	设置	ui
+Quit	退出	ui
+Save Scum	备份存档	ui
+Help	帮助	ui
+Save&Quit	保存退出	ui
+Tiles	图块	ui
+Opacity	透明度	ui
+Fonts	字体	ui
+ColorText	彩色文字	ui
+AutoPrompt	自动提示	ui
+SafeWalk	安全移动	ui
+ActionBar	动作栏	ui
+CharDump	人物记录	ui
+KnownItems	已知物品	ui
+DebugInfo	调试信息	ui
+Collapse	重置地城	ui
+Defaults	默认设置	ui
+Disable Action Bar	关闭动作栏	ui
+Enable Action Bar	开启动作栏	ui
+Disable Prompt	关闭提示	ui
+Enable Prompt	开启提示	ui
+Attack by Default	默认攻击	ui
+Walk by Default	默认移动	ui
+No Colored Text	关闭彩色文字	ui
+Colored Text	开启彩色文字	ui
+Transparent	透明	ui
+Opaque	不透明	ui
+Revert to Defaults	恢复默认设置	ui
+Cancel	取消	ui
+cancel	取消	ui
+Collapse the Dungeon	重置地城	ui
+Really quit?	确认退出？	ui
+Yes	是	ui
+No	否	ui
+Classic	经典	ui
+Brass	金色	ui
+Shadow	阴影	ui
+Heavy	粗体	ui
+Light	细体	ui
+Gender? 	性别？	ui
+Male	男	ui
+Female	女	ui
+Name? 	名字？	ui
+Initial God?	初始神明？	ui
+Equip	装备	ui
+Unequip	卸下	ui
+Drop	丢弃	ui
+Eat	进食	ui
+Breathe	呼吸	ui
+Walk	移动	ui
+Move	移动	ui
+Release	释放	ui
+Quaff	饮用	ui
+Read	阅读	ui
+Forget	遗忘	ui
+Fire	射击	ui
+Quiver	备弹	ui
+Favorite	收藏	ui
+Dip	浸泡	ui
+Open	打开	ui
+Close	关闭	ui
+History	记录	ui
+Lock	锁定	ui
+Climb	攀爬	ui
+Pick Up	拾取	ui
+Swap	互换	ui
+Search	搜索	ui
+Wait	等待	ui
+Look	观察	ui
+Zap	施放	ui
+Use	使用	ui
+Jump	跳跃	ui
+Throw	投掷	ui
+Name	命名	ui
+Command	指令	ui
+MiniMap	地图	ui
+Sort	排序	ui
+Split	拆分	ui
+Pray	祈祷	ui
+Examine	查看	ui
+Sleep	睡眠	ui
+Inventory	物品栏	ui
+Command Menu	动作菜单	ui
+Wish	许愿	ui
+Run	奔跑	ui

@@ -1,0 +1,779 @@
+{
+  "applied": {
+    "source.txt": 1552,
+    "piety.cpp": 59,
+    "hiscore.cpp": 9,
+    "artifact.cpp": 11,
+    "item.cpp": 131,
+    "gfxengine.cpp": 7,
+    "creature.cpp": 209,
+    "map.cpp": 104,
+    "victory.cpp": 69,
+    "encyc_support.cpp": 8,
+    "action.cpp": 517,
+    "main.cpp": 292,
+    "encyclopedia paragraphs": 604,
+    "gfx/all_bitmaps.cpp": 6
+  },
+  "glyphs": 1922,
+  "catalogs": {
+    "data": 1346,
+    "ui": 333,
+    "messages": 865,
+    "help": 519
+  },
+  "unmatched_literals": [
+    {
+      "file": "input.cpp",
+      "text": "\b \t\nabcdefghijklmnopqrstuvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "abcdefghijklmnopqrstuvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "efghijklmnopqrstuvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "ijklmnopqrstuvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "mnopqrstuvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "qrstuvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "uvwxyz'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "\b \t\nABCDEFGHIJKLMNOPQRSTUVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "ABCDEFGHIJKLMNOPQRSTUVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "EFGHIJKLMNOPQRSTUVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "IJKLMNOPQRSTUVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "MNOPQRSTUVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "QRSTUVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "UVWXYZ'\"0123456789!#+-/*|_^&()[]{}<>.,:;",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "=1234567890-\b\b qwertyuiop\\ ",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": " qwertyuiop\\ "
+    },
+    {
+      "file": "input.cpp",
+      "text": " asdfghjkl;' \n zxcvbnm,./  \n\t`\\ \b   \n []\t ",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": " zxcvbnm,./  \n\t`\\ \b   \n []\t ",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": "+!@#$%^&*()_ \b QWERTYUIOP| ",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": " QWERTYUIOP| "
+    },
+    {
+      "file": "input.cpp",
+      "text": " ASDFGHJKL:\" \n ZXCVBNM<>?  \n\t~| \b   \n {}\t ",
+      "adjacent": true
+    },
+    {
+      "file": "input.cpp",
+      "text": " ZXCVBNM<>?  \n\t~| \b   \n {}\t ",
+      "adjacent": true
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Failure to open %s\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "%s does not look like a bitmap!\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Cannot support %d bit bmp.\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Only 24 or 8 bit supported.\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "alphabet_classic"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "alphabet_brass"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "alphabet_shadow"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "alphabet_light"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "alphabet_heavy"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/%s.bmp"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/dungeon16.bmp"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/mini16.bmp"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/minif16.bmp"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/sprite16.bmp"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Failed to load gfx/alphabet_*.bmp\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Failed to load gfx/dungeon16.bmp\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Failed to load gfx/mini16.bmp\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Failed to load gfx/minif16.bmp\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "Failed to load gfx/sprite16.bmp\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/alphabet.bmp incorrect size, must be 80x88\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/dungeon16.bmp incorrect size, must be 384x192\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/mini16.bmp incorrect size, must be 384x64\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "gfx/sprite16.bmp incorrect size, must be 384x96\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "%d colours lost in truncation to 256 palette.\n"
+    },
+    {
+      "file": "bmp.cpp",
+      "text": "%d colours lost in truncation to 256 palette in sprites.\n"
+    },
+    {
+      "file": "ai.cpp",
+      "text": "Invalid wand!"
+    },
+    {
+      "file": "ai.cpp",
+      "text": "Invalid wand!"
+    },
+    {
+      "file": "ai.cpp",
+      "text": "BAD SLOT NAME"
+    },
+    {
+      "file": "ai.cpp",
+      "text": "INVALID WAND TYPE"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "frost"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "wang"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "whiz"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "brask"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "trey"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "klay"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "relat"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "froody"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "were"
+    },
+    {
+      "file": "artifact.cpp",
+      "text": "slug"
+    },
+    {
+      "file": "assert.cpp",
+      "text": "Assertion failure: File %s, Line %d\n"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unknown magic type!"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Excessive enchantment!"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Could not find item!"
+    },
+    {
+      "file": "item.cpp",
+      "text": "the "
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unhandled MAGICTYPE"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unhandled MAGICTYPE"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unknown potion type %d"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unhandled wand type!"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unknown potion class!"
+    },
+    {
+      "file": "item.cpp",
+      "text": "Unknown grenade!"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "abcdefghij"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "klmnopqrst"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "uvwxyz"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "ABCDEFGHIJ"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "KLMNOPQRST"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "UVWXYZ"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "Failure to allocate char tile"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "FAILED TO ALLOC TILE!"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "You should stop reading the binary!"
+    },
+    {
+      "file": "gfxengine.cpp",
+      "text": "OPEN %s FAILED!\n"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Failed transfer in destructor"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Didn't find a mob!"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "blad"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "ylem"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "kral"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "qual"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "hjur"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Invalid phase!"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Unhandled ELEMENT!"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "POWDER %03d"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "%s.txt"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Invalid slot name!"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Poison intrinsic with no poison."
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Transfer fail in Load"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "Counter still exists!"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "UNKNOWN SOURCE OF LIFE SAVING"
+    },
+    {
+      "file": "creature.cpp",
+      "text": "UNKNOWN SOURCE OF LICH FORM"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Same effect at %d.  "
+    },
+    {
+      "file": "map.cpp",
+      "text": "Found end at %d.  "
+    },
+    {
+      "file": "map.cpp",
+      "text": "No direction found?"
+    },
+    {
+      "file": "map.cpp",
+      "text": "COOL MOB INSTA KILLED"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Couldn't place cool mob!"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Invalid sense!"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Removal of non-present mob"
+    },
+    {
+      "file": "map.cpp",
+      "text": "No base type!"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Invalid source branch name"
+    },
+    {
+      "file": "map.cpp",
+      "text": "UNKNOWN LIQUID"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Unknown liquid"
+    },
+    {
+      "file": "map.cpp",
+      "text": "ERROR"
+    },
+    {
+      "file": "map.cpp",
+      "text": "BAD CODE PATH WITH TRAPS"
+    },
+    {
+      "file": "map.cpp",
+      "text": "UNHANDLED SQUARE TYPE"
+    },
+    {
+      "file": "map.cpp",
+      "text": "INVALID LIQUID"
+    },
+    {
+      "file": "map.cpp",
+      "text": "Seed, Walkable, LadderDist, NumMob, TotalMobLevel, WallRatio\n"
+    },
+    {
+      "file": "speed.cpp",
+      "text": "Invalid phase!"
+    },
+    {
+      "file": "rand.cpp",
+      "text": "Too many sides!"
+    },
+    {
+      "file": "rand.cpp",
+      "text": "Too many rolls!"
+    },
+    {
+      "file": "rand.cpp",
+      "text": "aaaeeeiiiooouuyy'"
+    },
+    {
+      "file": "rand.cpp",
+      "text": "rsfhvnmz"
+    },
+    {
+      "file": "rand.cpp",
+      "text": "tpdgkbc"
+    },
+    {
+      "file": "rand.cpp",
+      "text": "qwjx"
+    },
+    {
+      "file": "sramstream.cpp",
+      "text": "SRAM_V113"
+    },
+    {
+      "file": "sramstream.cpp",
+      "text": "Completed save of %d bytes, %d blocks."
+    },
+    {
+      "file": "sramstream.cpp",
+      "text": "Unknown compression type!"
+    },
+    {
+      "file": "sramstream.cpp",
+      "text": "RLE IS BROKEN!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "new id: %d.  "
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "new free: %d.  "
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Invlaid dec reference!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Ref already freed!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Stale ref, no data, in setptr!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Stale ref, freed, in setptr!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Stale reference in lut!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Set failed in create"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Invalid transfer!"
+    },
+    {
+      "file": "mobref.cpp",
+      "text": "Set ptr failed in transfer"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Invalid itemslot selected"
+    },
+    {
+      "file": "action.cpp",
+      "text": "UNKNOWN ATTITUDE!"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Drop failed!"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Unknown potion class!"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Invalid magic type"
+    },
+    {
+      "file": "action.cpp",
+      "text": "INVALID SCROLL NUMBER!"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Reading not supported for non-avatar!"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Invalid smarts check"
+    },
+    {
+      "file": "action.cpp",
+      "text": "invalid"
+    },
+    {
+      "file": "action.cpp",
+      "text": "UNHANDLED SPELL!"
+    },
+    {
+      "file": "action.cpp",
+      "text": "MOBREF corruption: pre-unpoly.  "
+    },
+    {
+      "file": "action.cpp",
+      "text": "UnPoly Fail Transfer To"
+    },
+    {
+      "file": "action.cpp",
+      "text": "UnPoly Fail Transfer From"
+    },
+    {
+      "file": "action.cpp",
+      "text": "MOBREF corruption: unpoly.  "
+    },
+    {
+      "file": "action.cpp",
+      "text": "MOBREF corruption: pre-poly.  "
+    },
+    {
+      "file": "action.cpp",
+      "text": "Poly transfer to"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Poly transfer from"
+    },
+    {
+      "file": "action.cpp",
+      "text": "MOBREF corruption: poly.  "
+    },
+    {
+      "file": "action.cpp",
+      "text": "MOBREF corruption: pre-petrify.  "
+    },
+    {
+      "file": "action.cpp",
+      "text": "MOBREF corruption: petrify.  "
+    },
+    {
+      "file": "action.cpp",
+      "text": "Unhandled ITEMSLOT"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Unhandled ITEMSLOT"
+    },
+    {
+      "file": "action.cpp",
+      "text": "Invalid buttons strip"
+    },
+    {
+      "file": "build.cpp",
+      "text": "Current room count %d\n"
+    },
+    {
+      "file": "build.cpp",
+      "text": "Got to draw..."
+    },
+    {
+      "file": "build.cpp",
+      "text": "Impossibly map!"
+    },
+    {
+      "file": "build.cpp",
+      "text": "Could not find a room!"
+    },
+    {
+      "file": "build.cpp",
+      "text": "Failed to build a dungeon, retrying!"
+    },
+    {
+      "file": "build.cpp",
+      "text": "tutorial"
+    },
+    {
+      "file": "main.cpp",
+      "text": "%c%2d%c%03d/%02d%c%03d/%02d%c%03d%c%02d Zinc "
+    },
+    {
+      "file": "main.cpp",
+      "text": "POWDER 118"
+    },
+    {
+      "file": "main.cpp",
+      "text": "Built with Android 2.2"
+    },
+    {
+      "file": "main.cpp",
+      "text": "Built with SDL 1.2"
+    },
+    {
+      "file": "main.cpp",
+      "text": "Invalid choice for random action"
+    },
+    {
+      "file": "main.cpp",
+      "text": "Unhandled ACTION!"
+    },
+    {
+      "file": "main.cpp",
+      "text": "powder.unlockcode"
+    },
+    {
+      "file": "main.cpp",
+      "text": "mapstats.csv"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Adam Bolt"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Nethackish"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Graphical ASCII"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Akoi Meexx"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Akoi Meexx 10"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Akoi Meexx 12"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Akoi Meexx 10"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Ibson the Grey"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "Chris Lomaka"
+    },
+    {
+      "file": "gfx/all_bitmaps.cpp",
+      "text": "From Disk"
+    }
+  ]
+}

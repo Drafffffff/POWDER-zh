@@ -1,0 +1,731 @@
+{
+  "font": "Fusion Pixel 8px Mono zh_Hans",
+  "version": "2026.09.25",
+  "license": "OFL-1.1",
+  "input_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "font_sha256": "3c00ccab762c0c75967eea724f5cd57feb544be7a0814d06233160ef9482a50b",
+  "output_sha256": "4ae701ed7c68ba43f06a4fed201e5697a6e6b87e78b52e2010b03768e1d942c3",
+  "changed_bytes": 2471,
+  "glyphs": [
+    {
+      "tileset": "Classic",
+      "style": 0,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xB30A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 0,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xB30E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 0,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xB3128",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 1,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xB4EA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 1,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xB4EE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 1,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xB4F28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 2,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xB6CA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 2,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xB6CE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 2,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xB6D28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 3,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xB8AA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 3,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xB8AE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 3,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xB8B28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 4,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xBA8A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 4,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xBA8E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Classic",
+      "style": 4,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xBA928",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 0,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xE52A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 0,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xE52E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 0,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xE5328",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 1,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xE70A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 1,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xE70E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 1,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xE7128",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 2,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xE8EA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 2,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xE8EE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 2,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xE8F28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 3,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xEACA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 3,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xEACE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 3,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xEAD28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 4,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0xECAA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 4,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0xECAE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Adam Bolt",
+      "style": 4,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0xECB28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 0,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1174A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 0,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1174E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 0,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x117528",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 1,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1192A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 1,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1192E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 1,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x119328",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 2,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x11B0A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 2,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x11B0E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 2,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x11B128",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 3,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x11CEA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 3,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x11CEE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 3,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x11CF28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 4,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x11ECA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 4,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x11ECE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Nethackish",
+      "style": 4,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x11ED28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 0,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1496A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 0,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1496E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 0,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x149728",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 1,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x14B4A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 1,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x14B4E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 1,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x14B528",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 2,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x14D2A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 2,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x14D2E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 2,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x14D328",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 3,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x14F0A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 3,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x14F0E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 3,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x14F128",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 4,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x150EA8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 4,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x150EE8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Graphical ASCII",
+      "style": 4,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x150F28",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 0,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x17B8A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 0,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x17B8E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 0,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x17B928",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 1,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x17D6A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 1,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x17D6E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 1,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x17D728",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 2,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x17F4A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 2,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x17F4E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 2,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x17F528",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 3,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1812A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 3,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1812E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 3,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x181328",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 4,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1830A8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 4,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1830E8",
+      "foreground": 5
+    },
+    {
+      "tileset": "Akoi Meexx",
+      "style": 4,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x183128",
+      "foreground": 5
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 0,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1ADAA8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 0,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1ADAE8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 0,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x1ADB28",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 1,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1AF8A8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 1,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1AF8E8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 1,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x1AF928",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 2,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1B16A8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 2,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1B16E8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 2,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x1B1728",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 3,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1B34A8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 3,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1B34E8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 3,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x1B3528",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 4,
+      "character": "新",
+      "tile_index": 111,
+      "offset": "0x1B52A8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 4,
+      "character": "游",
+      "tile_index": 112,
+      "offset": "0x1B52E8",
+      "foreground": 4
+    },
+    {
+      "tileset": "Chris Lomaka",
+      "style": 4,
+      "character": "戏",
+      "tile_index": 113,
+      "offset": "0x1B5328",
+      "foreground": 4
+    }
+  ]
+}

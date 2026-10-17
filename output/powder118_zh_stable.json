@@ -1,0 +1,67 @@
+{
+  "stability": {
+    "rom_sha256": "ab2dc73fad53c8cef5a01c62440c472e595342888a75ccdd3a1434d8592b12c6",
+    "baseline_ui": {
+      "frames_observed": 3820,
+      "white_intermediate_frames": 92
+    },
+    "fixed_ui": {
+      "frames_observed": 30460,
+      "white_intermediate_frames": 0
+    },
+    "vblank_overruns": 0,
+    "normal_ui_commits_before_reset": 268,
+    "repeat_action_menu_cycles": 30,
+    "repeat_reader_cycles": 30,
+    "world_fixture": {
+      "build_flag": "FORCESTRESSTEST; not enabled in user ROM",
+      "frames": 60000,
+      "room_regenerations": 15,
+      "presentation_commits": 4161,
+      "rom_sha256": "1dd5fe16bb99af88b370906b6b2edcdc0788d811aa05888ee175f16a8d5a5ef8"
+    },
+    "visual_layout": "10px action menu / 11px reader ink / 9px button hints retained",
+    "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+  },
+  "rom": "powder118_zh_stable.gba",
+  "rom_bytes": 5680656,
+  "rom_sha256": "ab2dc73fad53c8cef5a01c62440c472e595342888a75ccdd3a1434d8592b12c6",
+  "original_sha256": "20bf244560265e8215ea9df2d23c3c85a93bb49f1a91010a230d0d125cc3b654",
+  "bps_sha256": "12334b59027cca7d75d5a3feb86ee2b3602ecccfcc900065157dfe178a9d66ce",
+  "bps_roundtrip": "pass",
+  "runtime": {
+    "rom_sha256": "ab2dc73fad53c8cef5a01c62440c472e595342888a75ccdd3a1434d8592b12c6",
+    "all_five_action_pages": "pass",
+    "repeat_switch_cycles": 30,
+    "cancel_restores_entire_screen": "pass",
+    "saved_map_roundtrip": "pass",
+    "screenshots": "inventory, help, fonts, tilesets, command menu, save/load"
+  },
+  "translation_validation": {
+    "catalogs": {
+      "data_zh.json": 1346,
+      "messages_zh.json": 865,
+      "ui_zh.json": 333,
+      "help_zh.json": 519,
+      "extra_zh.json": 29
+    },
+    "catalog_entries": 3092,
+    "format_tokens": "pass",
+    "pixel_wrap_and_9px_hint_bounds": "pass",
+    "source_data_meaningful_coverage": "pass",
+    "utf8_and_buffer_boundaries": "pass",
+    "original_sha256": "unchanged"
+  },
+  "menu": {
+    "glyph": "Fusion Pixel 10px, transparent background, dark outline; 9px button hints",
+    "rows_per_page": 7,
+    "navigation": "D-pad up/down: select; left/right: page; A: execute; B: return"
+  },
+  "reader": {
+    "glyph": "11px native ink, with blank BDF border removed; no resampling",
+    "button_hints_px": 9,
+    "visible_lines": 8,
+    "line_spacing_px": 13
+  },
+  "scope": "Chinese test build; action-menu layout improved; no complete-game playthrough or old-save compatibility certification"
+}

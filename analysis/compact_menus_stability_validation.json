@@ -1,0 +1,19 @@
+{
+  "rom_sha256": "da2ee5f5f95bce1cbaf700a12e1c9210f690c5393931f22c05d336b814413ab7",
+  "baseline_ui": {
+    "frames_observed": 3820,
+    "white_intermediate_frames": 92
+  },
+  "fixed_ui": {
+    "frames_observed": 9238,
+    "white_intermediate_frames": 0
+  },
+  "vblank_overruns": 0,
+  "normal_ui_commits_before_reset": 80,
+  "repeat_action_menu_cycles": 5,
+  "repeat_reader_cycles": 5,
+  "world_fixture": null,
+  "visual_layout": "10px action menu / 11px reader ink / 9px button hints retained",
+  "ui_only": true,
+  "limits": "mGBA libretro 0.10.5; startup/load black transitions still exist; no complete playthrough or real-hardware verification"
+}
